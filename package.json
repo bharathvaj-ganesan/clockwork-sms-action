@@ -26,6 +26,7 @@
   },
   "homepage": "https://github.com/bharathvaj1995/clockwork-sms-action#readme",
   "dependencies": {
+    "@actions/core": "^1.2.4",
     "clockwork": "0.1.4"
   }
 }
