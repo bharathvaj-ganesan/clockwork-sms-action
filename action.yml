@@ -1,0 +1,16 @@
+name: "Clockwork Send SMS"
+description: "Send an SMS using Clockwork"
+author: "Bharathvaj Ganesan <bharathvaj1995@gmail.com>"
+branding:
+  icon: "send"
+  color: "green"
+inputs:
+  to:
+    description: "The number to send SMS to"
+    required: true
+  content:
+    description: "The message content to send"
+    required: true
+runs:
+  using: "node12"
+  main: "index.js"

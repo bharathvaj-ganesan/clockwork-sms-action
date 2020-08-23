@@ -6,8 +6,8 @@ const clockwork = new Clockwork({
 });
 
 // Sends SMS
-clockwork.sendSms({ To: core.getInput("to"), Content: core.getInput("content") }, function (error, response) {
+clockwork.sendSms({ To: core.getInput("to"), Content: core.getInput("content") }, function (error) {
   if (error) {
-    return core.setFailed(error);
+    return core.setFailed(error.errDesc);
   }
 });
