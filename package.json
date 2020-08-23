@@ -1,0 +1,31 @@
+{
+  "name": "clockwork-sms-action",
+  "version": "1.0.0",
+  "description": "Send an SMS via clockwork using Github Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bharathvaj1995/clockwork-sms-action.git"
+  },
+  "keywords": [
+    "Github",
+    "Actions",
+    "github-actions",
+    "sms",
+    "notification",
+    "chat",
+    "reporting"
+  ],
+  "author": "Bharathvaj Ganesan <bharathvaj1995@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bharathvaj1995/clockwork-sms-action/issues"
+  },
+  "homepage": "https://github.com/bharathvaj1995/clockwork-sms-action#readme",
+  "dependencies": {
+    "clockwork": "0.1.4"
+  }
+}
