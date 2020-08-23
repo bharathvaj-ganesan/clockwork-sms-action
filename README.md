@@ -67,3 +67,12 @@ jobs:
         content: "This urgent issue needs your attention: ${{ github.event.issue.html_url }}"
       if: github.event.label.name == 'urgent'
 ```
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+## 📝 License
+
+Copyright © 2020 [Bharathvaj Ganesan](https://github.com/bharathvaj1995).<br />
+This project is [MIT](https://github.com/bharathvaj1995/clockwork-sms-action/blob/master/LICENSE) licensed.
